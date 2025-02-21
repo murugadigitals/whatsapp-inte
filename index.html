@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .whatsapp button, .phone button{
+            border-radius: 10px;
+            color:white;
+        }
+        #what:hover{
+            content: "";
+            background-color: orange;
+            color: red;
+        }
+        #what:hover{
+            width: 50px;
+        }
+    </style>
+</head>
+<body class="bg-warning">
+    
+    <div class="continer-fluid position-relative">
+        
+        <div style="position:fixed; bottom: 25px; left: 0px;"class="whatsapp  m-3 p-0" >
+            <a href="https://wa.me/917396128940"><button id="what" class="bi bi-whatsapp fs-1 bg-success"></button></a>
+        </div>
+
+        <div style="position:fixed; bottom: 25px; right: 0px;"class="phone m-3 p-0">
+            <a href="tel:+917396128940"><button class="bi bi-telephone fs-1 bg-danger"></button></a>
+        </div>
+        
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
